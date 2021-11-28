@@ -6,7 +6,7 @@
 Controlled vocabularies allow an accurate and controlled approach in describing physical and digital assets (e.g., data). One of such controlled vocabulary is **NICEST-2 Subjects**. This controlled vocabulary is a result of Metadata 4 Machine (M4M) Workshop 19 (M4M.19 funded by [EOSC-Nordic](https://www.eosc-nordic.eu/about-eosc-nordic/)
 ) provided to [the NICEST-2 project](https://neic.no/nicest2/). 
 
-`sheet2rdf` and `OntoStack`, developed by [FAIR Data Collective](https://dk.linkedin.com/company/fair-data-collective), are used to build and serve **NICEST-2 Subjects**, while [PURL](https://archive.org/services/purl/) will be used to persist identifiers for the vocabulary terms and properties:
+`sheet2rdf` and `OntoStack`, developed by Nikola Vasiljevic, are used to build and serve **NICEST-2 Subjects**, while [PURL](https://archive.org/services/purl/) will be used to persist identifiers for the vocabulary terms and properties:
 
    http://purl.org/m4m19/subjects/
 
