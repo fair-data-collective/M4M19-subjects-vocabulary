@@ -9,6 +9,7 @@ Metadata about vocabulary
 dct:title,NICEST-2 controlled vocabulary of subjects,Title of the vocabulary
 dct:description,Subjects ...,Description of the controlled vocabulary
 dct:creator,https://orcid.org/0000-0002-9381-9693,"An ORCID ID of the vocabulary creator, repeat this row as needed."
+dct:creator,https://orcid.org/0000-0001-8497-1661
 dct:rights,https://spdx.org/licenses/CC0-1.0,License under which the vocabulary is provided
 pav:version,0.1.0,Vocabulary version
 pav:createdOn,2021-11-12T12:00+02:00,Date when vocabulary was initially created
@@ -16,5 +17,16 @@ pav:lastUpdatedOn,2021-11-12T12:00+02:00,Date of the last vocabulary update
 Definition of terms
 
 Identifier,skos:prefLabel@en,skos:definition@en,"skos:altLabel(separator="","")","dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
-nicest-2-subjects:10000,test subject,This is a subject term used for setting up sheet2rdf workflow.
-nicest-2-subjects:10001,climate
+nicest-2-subjects:10000,oceanography,This is a subject term used for setting up sheet2rdf workflow.
+nicest-2-subjects:10001,numerical modelling
+nicest-2-subjects:10002,forecast
+nicest-2-subjects:10003,observations
+nicest-2-subjects:10004,meteorology
+nicest-2-subjects:10005,timeseries
+nicest-2-subjects:10006,hydrology
+nicest-2-subjects:10007,atmosphere
+nicest-2-subjects:10008,sea ice,,,,nicest-2-subjects:10000,,,to be reviewed
+nicest-2-subjects:10009,cryosphere
+nicest-2-subjects:10010
+nicest-2-subjects:10011
+nicest-2-subjects:10012

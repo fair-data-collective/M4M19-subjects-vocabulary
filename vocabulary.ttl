@@ -5,22 +5,79 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://purl.org/m4m19/subjects> a skos:ConceptScheme;
-  dct:creator <https://orcid.org/0000-0002-9381-9693>;
+  dct:creator <https://orcid.org/0000-0001-8497-1661>, <https://orcid.org/0000-0002-9381-9693>;
   dct:description "Subjects ..."@en;
   dct:rights <https://spdx.org/licenses/CC0-1.0>;
   dct:title "NICEST-2 controlled vocabulary of subjects"@en;
   pav:createdOn "2021-11-12T12:00+02:00"@en;
   pav:lastUpdatedOn "2021-11-12T12:00+02:00"@en;
   pav:version "0.1.0"@en;
-  skos:hasTopConcept nicest-2-subjects:10000, nicest-2-subjects:10001 .
+  skos:hasTopConcept nicest-2-subjects:10000, nicest-2-subjects:10001, nicest-2-subjects:10002,
+    nicest-2-subjects:10003, nicest-2-subjects:10004, nicest-2-subjects:10005, nicest-2-subjects:10006,
+    nicest-2-subjects:10007, nicest-2-subjects:10009, nicest-2-subjects:10010, nicest-2-subjects:10011,
+    nicest-2-subjects:10012 .
 
 nicest-2-subjects:10000 a skos:Concept;
   skos:definition "This is a subject term used for setting up sheet2rdf workflow."@en;
   skos:inScheme <http://purl.org/m4m19/subjects>;
-  skos:prefLabel "test subject"@en;
+  skos:narrower nicest-2-subjects:10008;
+  skos:prefLabel "oceanography"@en;
   skos:topConceptOf <http://purl.org/m4m19/subjects> .
 
 nicest-2-subjects:10001 a skos:Concept;
   skos:inScheme <http://purl.org/m4m19/subjects>;
-  skos:prefLabel "climate"@en;
+  skos:prefLabel "numerical modelling"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10002 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "forecast"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10003 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "observations"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10004 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "meteorology"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10005 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "timeseries"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10006 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "hydrology"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10007 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "atmosphere"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10008 a skos:Concept;
+  skos:broader nicest-2-subjects:10000;
+  skos:editorialNote "to be reviewed"@en;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "sea ice"@en .
+
+nicest-2-subjects:10009 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "cryosphere"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10010 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10011 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10012 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
   skos:topConceptOf <http://purl.org/m4m19/subjects> .
