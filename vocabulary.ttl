@@ -12,10 +12,15 @@
   pav:createdOn "2021-11-12T12:00+02:00"@en;
   pav:lastUpdatedOn "2021-11-12T12:00+02:00"@en;
   pav:version "0.1.0"@en;
-  skos:hasTopConcept nicest-2-subjects:TestTerm .
+  skos:hasTopConcept nicest-2-subjects:10000, nicest-2-subjects:10001 .
 
-nicest-2-subjects:TestTerm a skos:Concept;
-  skos:definition "Some test term"@en;
+nicest-2-subjects:10000 a skos:Concept;
+  skos:definition "This is a subject term used for setting up sheet2rdf workflow."@en;
   skos:inScheme <http://purl.org/m4m19/subjects>;
-  skos:prefLabel "TestTerm"@en;
+  skos:prefLabel "test subject"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10001 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "climate"@en;
   skos:topConceptOf <http://purl.org/m4m19/subjects> .

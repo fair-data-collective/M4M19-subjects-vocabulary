@@ -15,5 +15,6 @@ pav:createdOn,2021-11-12T12:00+02:00,Date when vocabulary was initially created
 pav:lastUpdatedOn,2021-11-12T12:00+02:00,Date of the last vocabulary update
 Definition of terms
 
-Identifier,skos:prefLabel@en,"skos:altLabel(separator="","")",skos:definition@en,"dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
-nicest-2-subjects:TestTerm,TestTerm,,Some test term
+Identifier,skos:prefLabel@en,skos:definition@en,"skos:altLabel(separator="","")","dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
+nicest-2-subjects:10000,test subject,This is a subject term used for setting up sheet2rdf workflow.
+nicest-2-subjects:10001,climate
