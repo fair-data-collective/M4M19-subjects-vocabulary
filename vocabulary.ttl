@@ -1,8 +1,22 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix nicest-2-subjects: <http://purl.org/m4m19/subjects/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://purl.org/m4m19/subjects> a skos:ConceptScheme;
   dct:creator <https://orcid.org/0000-0001-8497-1661>, <https://orcid.org/0000-0002-9381-9693>;
@@ -15,10 +29,11 @@
   skos:hasTopConcept nicest-2-subjects:10000, nicest-2-subjects:10001, nicest-2-subjects:10002,
     nicest-2-subjects:10003, nicest-2-subjects:10004, nicest-2-subjects:10005, nicest-2-subjects:10006,
     nicest-2-subjects:10007, nicest-2-subjects:10009, nicest-2-subjects:10010, nicest-2-subjects:10011,
-    nicest-2-subjects:10012 .
+    nicest-2-subjects:10012, nicest-2-subjects:10013, nicest-2-subjects:10014, nicest-2-subjects:10015,
+    nicest-2-subjects:10016, nicest-2-subjects:10017, nicest-2-subjects:10018, nicest-2-subjects:10019,
+    nicest-2-subjects:10020, nicest-2-subjects:10021 .
 
 nicest-2-subjects:10000 a skos:Concept;
-  skos:definition "This is a subject term used for setting up sheet2rdf workflow."@en;
   skos:inScheme <http://purl.org/m4m19/subjects>;
   skos:narrower nicest-2-subjects:10008;
   skos:prefLabel "oceanography"@en;
@@ -67,17 +82,66 @@ nicest-2-subjects:10008 a skos:Concept;
 
 nicest-2-subjects:10009 a skos:Concept;
   skos:inScheme <http://purl.org/m4m19/subjects>;
-  skos:prefLabel "cryosphere"@en;
+  skos:prefLabel "land ice"@en;
   skos:topConceptOf <http://purl.org/m4m19/subjects> .
 
 nicest-2-subjects:10010 a skos:Concept;
   skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "cryosphere"@en;
   skos:topConceptOf <http://purl.org/m4m19/subjects> .
 
 nicest-2-subjects:10011 a skos:Concept;
   skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "plant ecology"@en;
   skos:topConceptOf <http://purl.org/m4m19/subjects> .
 
 nicest-2-subjects:10012 a skos:Concept;
   skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "ocean ecology"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10013 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "biogeochemistry"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10014 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "chemistry"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10015 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "geospatial domain"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10016 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "energy"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10017 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "bioprospecting"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10018 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "prediction"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10019 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "historical"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10020 a skos:Concept;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "aerosols"@en;
+  skos:topConceptOf <http://purl.org/m4m19/subjects> .
+
+nicest-2-subjects:10021 a skos:Concept;
+  dct:source "ESM"@en;
+  skos:inScheme <http://purl.org/m4m19/subjects>;
+  skos:prefLabel "Earth System Modelling"@en;
   skos:topConceptOf <http://purl.org/m4m19/subjects> .

@@ -17,7 +17,7 @@ pav:lastUpdatedOn,2021-11-12T12:00+02:00,Date of the last vocabulary update
 Definition of terms
 
 Identifier,skos:prefLabel@en,skos:definition@en,"skos:altLabel(separator="","")","dct:source(separator="","")","skos:broader(separator="","")","skos:exactMatch(separator="","")","skos:closeMatch(separator="","")",skos:editorialNote@en,"dct:creator(separator="","")","dct:contributor(separator="","")"
-nicest-2-subjects:10000,oceanography,This is a subject term used for setting up sheet2rdf workflow.
+nicest-2-subjects:10000,oceanography
 nicest-2-subjects:10001,numerical modelling
 nicest-2-subjects:10002,forecast
 nicest-2-subjects:10003,observations
@@ -26,7 +26,16 @@ nicest-2-subjects:10005,timeseries
 nicest-2-subjects:10006,hydrology
 nicest-2-subjects:10007,atmosphere
 nicest-2-subjects:10008,sea ice,,,,nicest-2-subjects:10000,,,to be reviewed
-nicest-2-subjects:10009,cryosphere
-nicest-2-subjects:10010
-nicest-2-subjects:10011
-nicest-2-subjects:10012
+nicest-2-subjects:10009,land ice
+nicest-2-subjects:10010,cryosphere
+nicest-2-subjects:10011,plant ecology
+nicest-2-subjects:10012,ocean ecology
+nicest-2-subjects:10013,biogeochemistry
+nicest-2-subjects:10014,chemistry
+nicest-2-subjects:10015,geospatial domain
+nicest-2-subjects:10016,energy
+nicest-2-subjects:10017,bioprospecting
+nicest-2-subjects:10018,prediction
+nicest-2-subjects:10019,historical
+nicest-2-subjects:10020,aerosols
+nicest-2-subjects:10021,Earth System Modelling,,,ESM
